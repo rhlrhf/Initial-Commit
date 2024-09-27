@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  /* outline: 1px solid red !important; */
+}
+
+html {
+  font-size: 16px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+@media (min-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+}
+@media (min-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+@media (min-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+@media (min-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  background-color: white;
+  font-size: 1.12rem;
+  font-weight: 400;
+  line-height: 2.3;
+}
+
+.parentheader {
+  display: flex;
+  justify-content: space-evenly;
+  background: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.childheader {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.logo {
+  object-fit: contain;
+  cursor: pointer;
+  width: 7rem;
+}
+
+.navbar li {
+  padding: 1.75rem 3.875rem;
+}
+
+.navbar li a {
+  transition: all 0.3s ease 0s;
+}
+
+.navbar a:hover {
+  color: #489c8f;
+  cursor: pointer;
+}
+
+.navbar a:active {
+  color: white;
+  cursor: pointer;
+}
+
+/* Hero Section */
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 5em;
+  background-color: #ddf1ff;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+
+.heroimg {
+  width: 34rem;
+  object-fit: contain;
+}
+
+.hero-first {
+  text-align: left;
+  margin: 2em 0;
+}
+
+.rcorintel {
+  color: #489c8f;
+  font-weight: Medium;
+}
+
+.hero-second {
+  text-align: left;
+  margin: 0em 0 6em;
+}
+
+.calltoaction {
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 98px;
+}
+
+.btn {
+  border-radius: 6px;
+  padding: 1em 2em;
+  margin: 0 0.7em;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #489c8f;
+  text-transform: capitalize;
+  color: white;
+}
+
+.btn a:hover {
+  background-color: white;
+  color: #489c8f;
+  transition: all 0.3s ease 0s;
+}
+
+/* .heroimg {
+} */
+
+/* What is RCOR Intelligor */
+
+.whatis-intelliger {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
